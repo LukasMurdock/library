@@ -1,298 +1,647 @@
 {
   "kind": "books#volumes",
-  "totalItems": 1601,
+  "totalItems": 2137,
   "items": [
     {
       "kind": "books#volume",
-      "id": "7QuIvZcgoQEC",
-      "etag": "tVXwhoCQDR0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/7QuIvZcgoQEC",
+      "id": "dHgiywEACAAJ",
+      "etag": "3rcbzsWNCU8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dHgiywEACAAJ",
       "volumeInfo": {
-        "title": "Mr. Penumbra's 24-Hour Bookstore",
-        "subtitle": "A Novel",
+        "title": "The Win Without Pitching Manifesto",
         "authors": [
-          "Robin Sloan"
+          "Blair Enns"
         ],
-        "publisher": "Harper Collins",
-        "publishedDate": "2012-10-02",
-        "description": "The Great Recession has shuffled Clay Jannon out of his life as a web-design drone, and serendipity, sheer curiosity and the ability to climb a ladder like a monkey have landed him a new gig working the night shift at Mr. Penumbra’s 24-Hour Bookstore. But Clay begins to realize that this store is even more curious than its name suggests. There are only a few customers, but they come in repeatedly and never seem to actually buy anything. Instead they “check out” impossibly obscure volumes from strange corners of the store, all according to some elaborate, long-standing arrangement with the gnomic Mr. Penumbra. The store must be a front for something larger, Clay concludes, and soon he has embarked on a complex analysis of the customers’ behaviour and roped his friends into helping him figure out just what’s going on. But once they take their findings to Mr. Penumbra, they discover the secrets extend far beyond the walls of the bookstore. Evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or Umberto Eco, Mr. Penumbra’s 24-Hour Bookstore is exactly what it sounds like—an establishment you have to enter and will never want to leave.",
+        "publishedDate": "2018",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1999523504"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781999523503"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 143,
+        "printType": "BOOK",
+        "categories": [
+          "Advertising"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=dHgiywEACAAJ&dq=Win+without+pitching+manifesto&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=dHgiywEACAAJ&dq=Win+without+pitching+manifesto&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Win_Without_Pitching_Manifesto.html?hl=&id=dHgiywEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=dHgiywEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A manifesto of business practices for those who sell ideas and advice, The Win Without Pitching Manifesto lays out twelve steps in the form of proclamations that owners of creative businesses can take to distance themselves from their ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5z39ZwEACAAJ",
+      "etag": "myElpZdnoyc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5z39ZwEACAAJ",
+      "volumeInfo": {
+        "title": "The Win Without Pitching Manifesto",
+        "authors": [
+          "Blair Enns"
+        ],
+        "publishedDate": "2010",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1605440043"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781605440040"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 143,
+        "printType": "BOOK",
+        "categories": [
+          "Advertising"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=5z39ZwEACAAJ&dq=Win+without+pitching+manifesto&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=5z39ZwEACAAJ&dq=Win+without+pitching+manifesto&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Win_Without_Pitching_Manifesto.html?hl=&id=5z39ZwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=5z39ZwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "SbTrDQAAQBAJ",
+      "etag": "gDgz7cGvseg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SbTrDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Creative Strategy and the Business of Design",
+        "authors": [
+          "Douglas Davis"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2016-06-14",
+        "description": "The Business Skills Every Creative Needs! Remaining relevant as a creative professional takes more than creativity--you need to understand the language of business. The problem is that design school doesn't teach the strategic language that is now essential to getting your job done. Creative Strategy and the Business of Design fills that void and teaches left-brain business skills to right-brain creative thinkers. Inside, you'll learn about the business objectives and marketing decisions that drive your creative work. The curtain's been pulled away as marketing-speak and business jargon are translated into tools to help you: Understand client requests from a business perspective Build a strategic framework to inspire visual concepts Increase your relevance in an evolving industry Redesign your portfolio to showcase strategic thinking Win new accounts and grow existing relationships You already have the creativity; now it's time to gain the business insight. Once you understand what the people across the table are thinking, you'll be able to think how they think to do what we do.",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9781443415804"
+            "identifier": "9781440341618"
           },
           {
             "type": "ISBN_10",
-            "identifier": "1443415804"
+            "identifier": "1440341613"
           }
         ],
         "readingModes": {
           "text": true,
           "image": false
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": [
+          "Design"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=SbTrDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=SbTrDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=SbTrDQAAQBAJ&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=SbTrDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SbTrDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=SbTrDQAAQBAJ&rdid=book-SbTrDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Creative_Strategy_and_the_Business_of_De-sample-epub.acsm?id=SbTrDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=SbTrDQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Creative Strategy and the Business of Design fills that void and teaches left-brain business skills to right-brain creative thinkers. Inside, you&#39;ll learn about the business objectives and marketing decisions that drive your creative work."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ovRuAQAAQBAJ",
+      "etag": "3nwNXdDHqQg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ovRuAQAAQBAJ",
+      "volumeInfo": {
+        "title": "Burn Your Portfolio",
+        "authors": [
+          "Michael Janda"
+        ],
+        "publisher": "Pearson Education",
+        "publishedDate": "2013",
+        "description": "Offers advice on real-world practices, professional do's and don'ts, and business rules for those in the graphic arts.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780321918680"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0321918681"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 401,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ovRuAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ovRuAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ovRuAQAAQBAJ&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=ovRuAQAAQBAJ&dq=Win+without+pitching+manifesto&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Burn_Your_Portfolio.html?hl=&id=ovRuAQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ovRuAQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Offers advice on real-world practices, professional do&#39;s and don&#39;ts, and business rules for those in the graphic arts."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ayLWtFJSrvkC",
+      "etag": "pbbsyXVI+zQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ayLWtFJSrvkC",
+      "volumeInfo": {
+        "title": "Implementing Value Pricing",
+        "subtitle": "A Radical Business Model for Professional Firms",
+        "authors": [
+          "Ronald J. Baker"
+        ],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2010-11-29",
+        "description": "Praise for IMPLEMENTING VALUE PRICING A Radical Business Model for Professional Firms \"Ron Baker is the most prolific and best writer when it comes to pricing services. This is a must-read for executives and partners in small to large firms. Ron provides the basics, the advanced ideas, the workbooks, the case studies—everything. This is a must-have and a terrific book.\" —Reed K. Holden founder and CEO, Holden Advisors, Corp., Associate Professor, Columbia University www.holdenadvisors.com \"We've known through Ron Baker's earlier books that he's not just an extraordinary thinker and truly brilliant writer—he's a mover and a shaker on a mission. This is the End of Time! Brilliant.\" —Paul Dunn Chairman, B1G1® www.b1g1.com \"Implementing Value Pricing is a powerful blend of theory, strategy, and tactics. Ron Baker's most recent offering is ambitious in scope, exploring topics that include economic theory, customer orientation, value identification, service positioning, and pricing strategy. He weaves all of them together seamlessly, and includes numerous examples to illustrate his primary points. I have applied the knowledge I've gained from his body of work, and the benefits to me—and to my customers—have been immediate, significant, and ongoing.\" —Brent Uren Principal, Valuation & Business Modeling Ernst & Young® www.ey.com \"Ron Baker is a revolutionary. He is on a radical crusade to align the interests of service providers with those of their customers by having lawyers, accountants, and consultants charge based on the value they provide, rather than the effort it takes. Implementing Value Pricing is a manifesto that establishes a clear case for the revolution. It provides detailed guidance that includes not only strategies and tactics, but key predictive indicators for success. It is richly illustrated by the successes of firms that have embraced value-based pricing to make their services not only more cost-effective for their customers, but more profitable as well. The hallmark of a manifesto is an unyielding sense of purpose and a call to action. Let the revolution begin.\" —Robert G. Cross, Chairman and CEO, Revenue Analytics, Inc. Author, Revenue Management: Hard-Core Tactics for Market Domination",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "047092957X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470929575"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ayLWtFJSrvkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ayLWtFJSrvkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ayLWtFJSrvkC&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ayLWtFJSrvkC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ayLWtFJSrvkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 80,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 80,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ayLWtFJSrvkC&rdid=book-ayLWtFJSrvkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 80000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 80000000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Implementing_Value_Pricing-sample-epub.acsm?id=ayLWtFJSrvkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Implementing_Value_Pricing-sample-pdf.acsm?id=ayLWtFJSrvkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ayLWtFJSrvkC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is a must-read for executives and partners in small to large firms. Ron provides the basics, the advanced ideas, the workbooks, the case studies everything. This is a must-have and a terrific book."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yJZFY31vuP0C",
+      "etag": "sOKiE5YDgx8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yJZFY31vuP0C",
+      "volumeInfo": {
+        "title": "Managing (right) for the First Time",
+        "subtitle": "A Field Guide for Doing it Well",
+        "authors": [
+          "David C. Baker"
+        ],
+        "publisher": "RockBench Publishing Corp",
+        "publishedDate": "2010",
+        "description": "Managing (Right) for the First Time is intended as a field guide for first time managers, or for managers who want to begin doing a better job. The author worked closely with 600+ companies and interviewed more than 10,000 employees, then summarized the findings in an interesting and eminently readable form. Read this book and you're likely to understand management and leadership like you never have before, but also learn very practical steps toward becoming a better manager and leader.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781605440026"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1605440027"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 214,
+        "printType": "BOOK",
+        "categories": [
+          "Executive ability"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yJZFY31vuP0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yJZFY31vuP0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=yJZFY31vuP0C&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=yJZFY31vuP0C&dq=Win+without+pitching+manifesto&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Managing_right_for_the_First_Time.html?hl=&id=yJZFY31vuP0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Managing_right_for_the_First_Time-sample-pdf.acsm?id=yJZFY31vuP0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yJZFY31vuP0C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Read this book and you&#39;re likely to understand management and leadership like you never have before, but also learn very practical steps toward becoming a better manager and leader."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KDmPhlVGXtkC",
+      "etag": "wveHlR+Hn3s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KDmPhlVGXtkC",
+      "volumeInfo": {
+        "title": "Socratic Selling: How to Ask the Questions That Get the Sale",
+        "authors": [
+          "Kevin Daley"
+        ],
+        "publisher": "McGraw Hill Professional",
+        "publishedDate": "1995-08-22",
+        "description": "Build a relationship with your customers and close the sale more surely. The Socratic approach respects the power of the customer. The customer has the need, the power, and the decision-making authority. Socratic Selling shows you how to access that power, to cooperate with it, and to make it work for you. Inside you will discover how to: Open a sales dialogue dynamically, so that you and your customer go right to the heart of the matter Guide the dialogue through a discovery of needs and needed decisions Negotiate objections, and close effectively Uncover the motivators that move sales to more predictable closure",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780071371513"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0071371516"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 228,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KDmPhlVGXtkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KDmPhlVGXtkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=KDmPhlVGXtkC&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=KDmPhlVGXtkC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=KDmPhlVGXtkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 27.9,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 15.34,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=KDmPhlVGXtkC&rdid=book-KDmPhlVGXtkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 27900000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 15340000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Socratic_Selling_How_to_Ask_the_Question-sample-epub.acsm?id=KDmPhlVGXtkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Socratic_Selling_How_to_Ask_the_Question-sample-pdf.acsm?id=KDmPhlVGXtkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KDmPhlVGXtkC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Inside you will discover how to: Open a sales dialogue dynamically, so that you and your customer go right to the heart of the matter Guide the dialogue through a discovery of needs and needed decisions Negotiate objections, and close ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1IiBDLZPv28C",
+      "etag": "gCZu5ZI375Q",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1IiBDLZPv28C",
+      "volumeInfo": {
+        "title": "Mastering the Complex Sale",
+        "subtitle": "How to Compete and Win When the Stakes are High!",
+        "authors": [
+          "Jeff Thull"
+        ],
+        "publisher": "John Wiley and Sons",
+        "publishedDate": "2010-03-10",
+        "description": "Praise for Mastering the Complex Sale \"Jeff Thull's process plays a key role in helping companies and their customers cross the chasm with disruptive innovations and succeed with game-changing initiatives.\" —Geoffrey A. Moore, author of Crossing the Chasm and Dealing with Darwin \"This is the first book that lays out a solid method for selling cross-company, cross-border, even cross-culturally where you have multiple decision makers with multiple agendas. This is far more than a 'selling process'—it is a survival guide—a truly outstanding approach to bringing all the pieces of the puzzle together.\" —Ed Daniels, EVP, Shell Global Solutions Downstream, President, CRI/Criterion, Inc. \"Mastering the Complex Sale brilliantly sets up value from the customer's perspective. A must-read for all those who are managing multinational business teams in a complex and highly competitive environment.\" —Samik Mukherjee, Vice President, Onshore Business, Technip \"Customers need to know the value they will receive and how they will receive it. Thull's insights into the complex sale and how to clarify and quantify this value are remarkable—Mastering the Complex Sale will be required reading for years to come!\" —Lee Tschanz, Vice President, North American Sales, Rockwell Automation \"Jeff Thull is winning the war against commoditization. In his world, value trumps price and commoditization isn't a given, it's a choice. This is a proven alternative to the price-driven sale. We've spoken to his clients. This stuff really works, folks.\" —Dave Stein, CEO and Founder, ES Research Group, Inc. \"Our business depends on delivering breakthrough thinking to our executive clients. Jeff Thull has significantly redefined sales and marketing strategies that clearly connect to our global audience. Read it, act on it, and take your results to exceptional levels.\" —Sven Kroneberg, President, Seminarium Internacional \"Jeff's main thesis—that professional customer guidance is the key to success—rings true in every global market today. Mastering the Complex Sale is the essential read for any organization looking to transform their business for long-term, value-driven growth.\" —Jon T. Lindekugel, President, 3M Health Information Systems, Inc. \"Jeff Thull has re-engineered the conventional sales process to create predictable and profitable growth in today's competitive marketplace. It's no longer about selling; it's about guiding quality decisions and creating collaborative value. This is one of those rare books that will make a difference.\" —Carol Pudnos, Executive director, Healthcare Industry, Dow Corning Corporation",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0470632593"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470632598"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
         },
         "pageCount": 304,
         "printType": "BOOK",
         "categories": [
-          "Fiction"
+          "Business & Economics"
         ],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": true,
-        "contentVersion": "1.5.5.0.preview.2",
+        "contentVersion": "0.4.5.0.preview.3",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=7QuIvZcgoQEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=7QuIvZcgoQEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=1IiBDLZPv28C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1IiBDLZPv28C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=7QuIvZcgoQEC&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=7QuIvZcgoQEC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Mr_Penumbra_s_24_Hour_Bookstore.html?hl=&id=7QuIvZcgoQEC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Mr_Penumbra_s_24_Hour_Bookstore-sample-epub.acsm?id=7QuIvZcgoQEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=7QuIvZcgoQEC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Evoking both the fairy-tale charm of Haruki Murakami and the enthusiastic novel-of-ideas wizardry of Neal Stephenson or Umberto Eco, Mr. Penumbra’s 24-Hour Bookstore is exactly what it sounds like—an establishment you have to enter and ..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "ZB1-VzoyYwMC",
-      "etag": "jRqwODLD5Mk",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZB1-VzoyYwMC",
-      "volumeInfo": {
-        "title": "Mr Penumbra's 24-hour Bookstore",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "Atlantic Books Ltd",
-        "publishedDate": "2012-12-20",
-        "description": "A New York Times bestseller, Mr Penumbra's 24-hour Bookstore is an entirely charming and lovable first novel of mysterious books and dusty bookshops; it is a witty and delightful love-letter to both the old book world and the new. Recession has shuffled Clay Jannon out of his life as a San Francisco Web-design drone - and serendipity, coupled with sheer curiosity, has landed him a new job working the night shift at Mr. Penumbra's 24-Hour Bookstore. But after just a few days, Clay begins to realize that this store is even more curious than the name suggests. There are only a few customers, but they come in repeatedly and never seem to actually buy anything, instead they simply borrow impossibly obscure volumes from strange corners of the store, all according to some elaborate, long-standing arrangement with the gnomic Mr. Penumbra. The store must be a front for something larger, Clay concludes, and soon he's embarked on a complex analysis of the customers' behaviour and roped his friends into helping to figure out just what's going on. But once they bring their findings to Mr. Penumbra, it turns out the secrets extend far outside the walls of the bookstore... 'The pages swell with Mr Sloan's nerdy affection and youthful enthusiasm for both tangible books and new media... [but] the ties that bind the story are friendship and vitality for life. This is a clever and whimsical tale with a big heart' The Economist Shortlisted for the LA Times Book Award for First Fiction.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781782391203"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1782391207"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 254,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.21.22.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ZB1-VzoyYwMC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ZB1-VzoyYwMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=ZB1-VzoyYwMC&dq=MrPenumbras24-HourBookstore&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=ZB1-VzoyYwMC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Mr_Penumbra_s_24_hour_Bookstore.html?hl=&id=ZB1-VzoyYwMC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=ZB1-VzoyYwMC&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This is a clever and whimsical tale with a big heart&#39; The Economist Shortlisted for the LA Times Book Award for First Fiction."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "bBtjTedZlsYC",
-      "etag": "DBG3ojxFGqg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/bBtjTedZlsYC",
-      "volumeInfo": {
-        "title": "Mr Penumbra's 24-hour Bookstore",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "Text Publishing",
-        "publishedDate": "2012-09-26",
-        "description": "A charming and hilarious adventure that has it all: secret societies, unbreakable codes, underground lairs, cutting-edge technology, the googleplex...and lots of books! Clay Jannon, twenty-six and unemployed, reads books about vampire policemen and teenage wizards. Familiar, predictable books. Books that fit neatly into a section at the bookstore. But he is about to encounter a new species of book entirely: secret, strange, and frantically sought-after. These books will introduce him to the strangest, smartest girl he's ever met. They will lead him across the country, through the shadowed spaces where old words hide. They will set him on a quest to unlock a secret held tight since the time of Gutenberg—a secret that touches us all. But before that, these books will get him a job. Welcome to Mr Penumbra's 24-Hour Bookstore.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781921961380"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1921961384"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 224,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.2.3.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=bBtjTedZlsYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=bBtjTedZlsYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=bBtjTedZlsYC&dq=MrPenumbras24-HourBookstore&hl=&cd=3&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=bBtjTedZlsYC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Mr_Penumbra_s_24_hour_Bookstore.html?hl=&id=bBtjTedZlsYC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true
-        },
-        "pdf": {
-          "isAvailable": true
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=bBtjTedZlsYC&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "They will set him on a quest to unlock a secret held tight since the time of Gutenberg—a secret that touches us all. But before that, these books will get him a job. Welcome to Mr Penumbra&#39;s 24-Hour Bookstore."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "ZSecAAAAQBAJ",
-      "etag": "FJNGuFq8VQI",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZSecAAAAQBAJ",
-      "volumeInfo": {
-        "title": "Ajax Penumbra 1969",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "Farrar, Straus and Giroux",
-        "publishedDate": "2013-09-24",
-        "description": "From Robin Sloan, author of Mr. Penumbra's 24-Hour Bookstore, the story of Mr. Penumbra's first trip to San Francisco—and of how he got entangled with the city's most unusual always-open enterprise... It is August 1969. The Summer of Love is a fading memory. The streets of San Francisco pulse to the sounds of Led Zeppelin and Marvin Gaye. And of jackhammers: A futuristic pyramid of a skyscraper is rising a few blocks from City Lights bookstore and an unprecedented subway tunnel is being built under the bay. Meanwhile, south of the city, orchards are quickly giving way to a brand-new industry built on silicon. But young Ajax Penumbra has not arrived in San Francisco looking for free love or a glimpse of the technological future. He is seeking a book—the single surviving copy of the Techne Tycheon, a mysterious volume that has brought and lost great fortune for anyone who has owned it. The last record of the book locates it in the San Francisco of more than a century earlier, and on that scant bit of evidence, Penumbra's university has dispatched him west to acquire it for their library. After a few weeks of rigorous hunting, Penumbra feels no closer to his goal than when he started. But late one night, after another day of dispiriting dead ends, he stumbles across a 24-hour bookstore, and the possibilities before him expand exponentially . . .",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780374711849"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0374711844"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 96,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "2.8.7.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ZSecAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ZSecAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=ZSecAAAAQBAJ&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=4&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=ZSecAAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZSecAAAAQBAJ"
+        "previewLink": "http://books.google.com/books?id=1IiBDLZPv28C&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=1IiBDLZPv28C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=1IiBDLZPv28C"
       },
       "saleInfo": {
         "country": "US",
         "saleability": "FOR_SALE",
         "isEbook": true,
         "listPrice": {
-          "amount": 2.99,
+          "amount": 15,
           "currencyCode": "USD"
         },
         "retailPrice": {
-          "amount": 2.99,
+          "amount": 15,
           "currencyCode": "USD"
         },
-        "buyLink": "https://play.google.com/store/books/details?id=ZSecAAAAQBAJ&rdid=book-ZSecAAAAQBAJ&rdot=1&source=gbs_api",
+        "buyLink": "https://play.google.com/store/books/details?id=1IiBDLZPv28C&rdid=book-1IiBDLZPv28C&rdot=1&source=gbs_api",
         "offers": [
           {
             "finskyOfferType": 1,
             "listPrice": {
-              "amountInMicros": 2990000,
+              "amountInMicros": 15000000,
               "currencyCode": "USD"
             },
             "retailPrice": {
-              "amountInMicros": 2990000,
+              "amountInMicros": 15000000,
               "currencyCode": "USD"
             },
             "giftable": true
@@ -307,476 +656,91 @@
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Ajax_Penumbra_1969-sample-epub.acsm?id=ZSecAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=ZSecAAAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "From Robin Sloan, author of Mr. Penumbra&#39;s 24-Hour Bookstore, the story of Mr. Penumbra&#39;s first trip to San Francisco—and of how he got entangled with the city&#39;s most unusual always-open enterprise."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "12s6DgAAQBAJ",
-      "etag": "o4d0JUORETU",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/12s6DgAAQBAJ",
-      "volumeInfo": {
-        "title": "Sourdough",
-        "subtitle": "A Novel",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "MCD",
-        "publishedDate": "2017-09-05",
-        "description": "From Robin Sloan, the New York Times bestselling author of Mr. Penumbra’s 24-Hour Bookstore, comes Sourdough, \"a perfect parable for our times\" (San Francisco Magazine): a delicious and funny novel about an overworked and under-socialized software engineer discovering a calling and a community as a baker. Named One of the Best Books of the Year by NPR, the San Francisco Chronicle, and Southern Living Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions. She codes all day and collapses at night, her human contact limited to the two brothers who run the neighborhood hole-in-the-wall from which she orders dinner every evening. Then, disaster! Visa issues. The brothers quickly close up shop. But they have one last delivery for Lois: their culture, the sourdough starter used to bake their bread. She must keep it alive, they tell her—feed it daily, play it music, and learn to bake with it. Lois is no baker, but she could use a roommate, even if it is a needy colony of microorganisms. Soon, not only is she eating her own homemade bread, she’s providing loaves to the General Dexterity cafeteria every day. Then the company chef urges her to take her product to the farmer’s market—and a whole new world opens up.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780374716431"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0374716439"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 273,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "1.7.5.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=12s6DgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=12s6DgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=12s6DgAAQBAJ&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=5&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 11.99,
-          "currencyCode": "USD"
-        },
-        "retailPrice": {
-          "amount": 11.99,
-          "currencyCode": "USD"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=12s6DgAAQBAJ&rdid=book-12s6DgAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 11990000,
-              "currencyCode": "USD"
-            },
-            "retailPrice": {
-              "amountInMicros": 11990000,
-              "currencyCode": "USD"
-            },
-            "giftable": true
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Sourdough-sample-epub.acsm?id=12s6DgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=12s6DgAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Named One of the Best Books of the Year by NPR, the San Francisco Chronicle, and Southern Living Lois Clary is a software engineer at General Dexterity, a San Francisco robotics company with world-changing ambitions."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "aHuEzQEACAAJ",
-      "etag": "cc7W0Z4ZLH4",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/aHuEzQEACAAJ",
-      "volumeInfo": {
-        "title": "The Ghosts of Thorwald Place",
-        "authors": [
-          "HELEN. POWER"
-        ],
-        "publisher": "Camcat Books",
-        "publishedDate": "2022-10-04",
-        "description": "\"An agoraphobic shut-in, Rachel Drake never leaves her safety of her doorman building in Toronto. After her ghost becomes tethered to the elevator where she was murdered, Rachel realizes she's powerless to do a thing about it. But she is not alone. The silhouette of a faceless man who reeks of decay and malevolence also haunts her building. Trouble is, he can mess with the living. Can Rachel find a way to protect those she loves, not only from her killer, but from the other ghosts of Thorwald Place?\"--Front jacket flap.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "0744300908"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9780744300901"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 416,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=aHuEzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=aHuEzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=aHuEzQEACAAJ&dq=MrPenumbras24-HourBookstore&hl=&cd=6&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=aHuEzQEACAAJ&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/The_Ghosts_of_Thorwald_Place.html?hl=&id=aHuEzQEACAAJ"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "NO_PAGES",
-        "embeddable": false,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=aHuEzQEACAAJ&hl=&source=gbs_api",
-        "accessViewStatus": "NONE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Trouble is, he can mess with the living. Can Rachel find a way to protect those she loves, not only from her killer, but from the other ghosts of Thorwald Place?&quot;--Front jacket flap."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "hGSUX7FuD5YC",
-      "etag": "MGRdQTBkRok",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/hGSUX7FuD5YC",
-      "volumeInfo": {
-        "title": "Annabel Scheme",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "robinsloan",
-        "publishedDate": "2009",
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 129,
-        "printType": "BOOK",
-        "categories": [
-          "San Francisco Bay Area (Calif.)"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.1.1.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=hGSUX7FuD5YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=hGSUX7FuD5YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=hGSUX7FuD5YC&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=7&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=hGSUX7FuD5YC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Annabel_Scheme.html?hl=&id=hGSUX7FuD5YC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Annabel_Scheme-sample-epub.acsm?id=hGSUX7FuD5YC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/Mastering_the_Complex_Sale-sample-epub.acsm?id=1IiBDLZPv28C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
         "pdf": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Annabel_Scheme-sample-pdf.acsm?id=hGSUX7FuD5YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/Mastering_the_Complex_Sale-sample-pdf.acsm?id=1IiBDLZPv28C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=hGSUX7FuD5YC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "zSzEUq5YuOIC",
-      "etag": "uF14MynJ0Ic",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/zSzEUq5YuOIC",
-      "volumeInfo": {
-        "title": "Mr. Penumbra's 24-Hour Bookstore",
-        "subtitle": "A Novel",
-        "authors": [
-          "Robin Sloan"
-        ],
-        "publisher": "Macmillan",
-        "publishedDate": "2012-10-02",
-        "description": "After a layoff during the Great Recession sidelines his tech career, Clay Jannon takes a job at the titular bookstore in San Francisco, and soon realizes that the establishment is a facade for a strange secret. 75,000 first printing.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780374214913"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0374214913"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": false
-        },
-        "pageCount": 306,
-        "printType": "BOOK",
-        "categories": [
-          "Fiction"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=zSzEUq5YuOIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=zSzEUq5YuOIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=zSzEUq5YuOIC&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=8&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=zSzEUq5YuOIC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Mr_Penumbra_s_24_Hour_Bookstore.html?hl=&id=zSzEUq5YuOIC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=zSzEUq5YuOIC&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=1IiBDLZPv28C&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "After a layoff during the Great Recession sidelines his tech career, Clay Jannon takes a job at the titular bookstore in San Francisco, and soon realizes that the establishment is a facade for a strange secret."
+        "textSnippet": "This is a proven alternative to the price-driven sale. We&#39;ve spoken to his clients. This stuff really works, folks.&quot; —Dave Stein, CEO and Founder, ES Research Group, Inc."
       }
     },
     {
       "kind": "books#volume",
-      "id": "SM6wrKiO5osC",
-      "etag": "dzWMxWs6kDo",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/SM6wrKiO5osC",
+      "id": "ztRQDwAAQBAJ",
+      "etag": "xdmdbxkq/Fo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ztRQDwAAQBAJ",
       "volumeInfo": {
-        "title": "Just My Type",
-        "subtitle": "A Book About Fonts",
+        "title": "Brand by Hand",
+        "subtitle": "Blisters, Calluses, and Clients: A Life in Design",
         "authors": [
-          "Simon Garfield"
+          "Jon Contino"
         ],
-        "publisher": "Profile Books",
-        "publishedDate": "2010-10-21",
-        "description": "Just My Type is not just a font book, but a book of stories. About how Helvetica and Comic Sans took over the world. About why Barack Obama opted for Gotham, while Amy Winehouse found her soul in 30s Art Deco. About the great originators of type, from Baskerville to Zapf, or people like Neville Brody who threw out the rulebook, or Margaret Calvert, who invented the motorway signs that are used from Watford Gap to Abu Dhabi. About the pivotal moment when fonts left the world of Letraset and were loaded onto computers ... and typefaces became something we realised we all have an opinion about. As the Sunday Times review put it, the book is 'a kind of Eats, Shoots and Leaves for letters, revealing the extent to which fonts are not only shaped by but also define the world in which we live.' This edition is available with both black and silver covers.",
+        "publisher": "Abrams",
+        "publishedDate": "2018-10-23",
+        "description": "The legendary graphic designer shares a retrospective of his most influential and unforgettable work in this career-spanning memoir. Brand by Hand documents the work, career, and artistic inspiration of graphic designer extraordinaire Jon Contino. A born-and-bred New Yorker, Jon’s upbringing comes through in the way he talks—and, most importantly, in the way he designs. He is the founder and creative director of Jon Contino Studio, and for more than two decades, he has built a massive collection of award-winning graphic-design work for high-profile clients such as Nike, 20th Century Fox, and Sports Illustrated. Over the course of his career, Jon has gone to design hell and back, facing obstacles like fear, self-doubt, and bad luck. Brand by Hand documents the evolution of his work, exploring his lifelong devotion to the guts and grime of New York and cementing his biggest artistic inspirations, from hardcore music to America’s favorite pastime. Brand by Hand showcases Jon’s minimalist illustrations and unmistakable hand-lettering. It also shares how he took a passion for pen and ink and turned it into an expanding empire of clients, merchandise, and artwork.",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9781847652928"
+            "identifier": "9781683353171"
           },
           {
             "type": "ISBN_10",
-            "identifier": "1847652921"
+            "identifier": "168335317X"
           }
         ],
         "readingModes": {
           "text": true,
           "image": true
         },
-        "pageCount": 352,
+        "pageCount": 250,
         "printType": "BOOK",
         "categories": [
-          "Reference"
+          "Design"
         ],
-        "averageRating": 5,
-        "ratingsCount": 1,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": true,
-        "contentVersion": "2.23.21.0.preview.3",
+        "contentVersion": "1.6.5.0.preview.3",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=SM6wrKiO5osC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=SM6wrKiO5osC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=ztRQDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ztRQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=SM6wrKiO5osC&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=9&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=SM6wrKiO5osC&dq=MrPenumbras24-HourBookstore&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Just_My_Type.html?hl=&id=SM6wrKiO5osC"
-      },
-      "saleInfo": {
-        "country": "US",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "US",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Just_My_Type-sample-epub.acsm?id=SM6wrKiO5osC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Just_My_Type-sample-pdf.acsm?id=SM6wrKiO5osC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=SM6wrKiO5osC&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "&#39; This edition is available with both black and silver covers."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "N-CUCgAAQBAJ",
-      "etag": "8gWeqEImGX0",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/N-CUCgAAQBAJ",
-      "volumeInfo": {
-        "title": "Literary Starbucks",
-        "subtitle": "Fresh-Brewed, Half-Caf, No-Whip Bookish Humor",
-        "authors": [
-          "Nora Katz",
-          "Wilson Josephson",
-          "Jill Poskanzer"
-        ],
-        "publisher": "St. Martin's Griffin",
-        "publishedDate": "2016-08-23",
-        "description": "From the creators of the eponymous viral Tumblr comes a single day with your favorite authors in one Twilight-Zone-esque Starbucks... Ever wonder which intricate, elaborately-named drinks might be consumed if your favorite authors and characters wandered into a Starbucks? How many pumpkin lattes J.K. Rowling would drink? Or if Cormac McCarthy needed caffeine, which latte would be laconic enough? Look no further; LITERARY STARBUCKS explores such pressing matters with humor and erudition. Set over the course of a single day, and replete with puns and satirized literary styles, the three authors go darker, stronger, and more global than the blog in book format, including illustrations by acclaimed New Yorker cover artist and cartoonist Harry Bliss.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781250096807"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1250096804"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": false
-        },
-        "pageCount": 256,
-        "printType": "BOOK",
-        "categories": [
-          "Humor"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.6.4.0.preview.2",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=N-CUCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=N-CUCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=N-CUCgAAQBAJ&printsec=frontcover&dq=MrPenumbras24-HourBookstore&hl=&cd=10&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=N-CUCgAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=N-CUCgAAQBAJ"
+        "previewLink": "http://books.google.com/books?id=ztRQDwAAQBAJ&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ztRQDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ztRQDwAAQBAJ"
       },
       "saleInfo": {
         "country": "US",
         "saleability": "FOR_SALE",
         "isEbook": true,
         "listPrice": {
-          "amount": 11.99,
+          "amount": 31.99,
           "currencyCode": "USD"
         },
         "retailPrice": {
-          "amount": 11.99,
+          "amount": 17.27,
           "currencyCode": "USD"
         },
-        "buyLink": "https://play.google.com/store/books/details?id=N-CUCgAAQBAJ&rdid=book-N-CUCgAAQBAJ&rdot=1&source=gbs_api",
+        "buyLink": "https://play.google.com/store/books/details?id=ztRQDwAAQBAJ&rdid=book-ztRQDwAAQBAJ&rdot=1&source=gbs_api",
         "offers": [
           {
             "finskyOfferType": 1,
             "listPrice": {
-              "amountInMicros": 11990000,
+              "amountInMicros": 31990000,
               "currencyCode": "USD"
             },
             "retailPrice": {
-              "amountInMicros": 11990000,
+              "amountInMicros": 17270000,
               "currencyCode": "USD"
             },
             "giftable": true
@@ -791,17 +755,131 @@
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Literary_Starbucks-sample-epub.acsm?id=N-CUCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com/books/download/Brand_by_Hand-sample-epub.acsm?id=ztRQDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
         "pdf": {
-          "isAvailable": false
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Brand_by_Hand-sample-pdf.acsm?id=ztRQDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=N-CUCgAAQBAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=ztRQDwAAQBAJ&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "Set over the course of a single day, and replete with puns and satirized literary styles, the three authors go darker, stronger, and more global than the blog in book format, including illustrations by acclaimed New Yorker cover artist and ..."
+        "textSnippet": "Brand by Hand documents the work, career, and artistic inspiration of graphic designer extraordinaire Jon Contino."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WuwqDQAAQBAJ",
+      "etag": "xZk0UmujdLI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WuwqDQAAQBAJ",
+      "volumeInfo": {
+        "title": "The Art of the Pitch",
+        "subtitle": "Persuasion and Presentation Skills that Win Business",
+        "authors": [
+          "Peter Coughter"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2016-09-29",
+        "description": "Through an engaging and humorous narrative, Peter Coughter presents the tools he designed to help advertising and marketing professionals develop persuasive presentations that deliver business. Readers will learn how to develop skills to create the perfect presentation.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781137512338"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1137512334"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WuwqDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WuwqDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=WuwqDQAAQBAJ&printsec=frontcover&dq=Win+without+pitching+manifesto&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=WuwqDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WuwqDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 24.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.74,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=WuwqDQAAQBAJ&rdid=book-WuwqDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 24990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14740000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 8750000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7610000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Art_of_the_Pitch-sample-pdf.acsm?id=WuwqDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WuwqDQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Through an engaging and humorous narrative, Peter Coughter presents the tools he designed to help advertising and marketing professionals develop persuasive presentations that deliver business."
       }
     }
   ]

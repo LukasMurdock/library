@@ -211,11 +211,14 @@ sub render_book_list_item {
 
     my $genres_attr = join(", ", @{$book_info->{genres}});
 
+    my $bookshelves = $book_info->{bookshelves} // [];
+
     # Constructing the list item
-    return sprintf("<li>%s <a href='%s' data-genres='%s'>%s</a> by %s (%s pages)</li>",
+    return sprintf("<li>%s <a href='%s' data-genres='%s' data-bookshelves='%s'>%s</a> by %s (%s pages)</li>",
                    encode_entities($date),
                    encode_entities($file),
                    encode_entities($genres_attr),
+                   encode_entities(join(", ", @{$book_info->{bookshelves}})),
                    encode_entities($name),
                    $authors_str,
                    encode_entities($pages));

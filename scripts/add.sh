@@ -10,8 +10,8 @@ read query
 # replace spaces with + for url
 query=${query// /+}
 
-# remove special characters
-query=$(echo $query | sed 's/[^a-zA-Z0-9-]//g')
+# remove special characters (except +)
+query=$(echo $query | sed 's/[^a-zA-Z0-9+]//g')
 
 echo "---"
 
@@ -24,7 +24,7 @@ mkdir -p tmp
 curl -s "https://www.googleapis.com/books/v1/volumes?q=$query" > tmp/q-g-api.json
 
 # get first result from json and ask user if the info is correct
-publishedDate=$(jq '.items[0].volumeInfo.publishedDate' tmp/q-g-api.json)
+publishedDate=$(jq -r '.items[0].volumeInfo.publishedDate' tmp/q-g-api.json)
 IFS=$'\n' read -r -d '' -a authors < <(jq -r '.items[0].volumeInfo.authors[]' tmp/q-g-api.json)
 title=$(jq -r '.items[0].volumeInfo.title' tmp/q-g-api.json)
 subtitle=$(jq '.items[0].volumeInfo.subtitle' tmp/q-g-api.json)
@@ -100,7 +100,9 @@ if [ "$correct" == "y" ]; then
     echo "<dt>Pages</dt>" >> books/$bookFileName
     echo "<dd property=\"numberOfPages\">$pageCount</dd>" >> books/$bookFileName
     echo "<dt>Date Published</dt>" >> books/$bookFileName
-    echo "<dd property=\"datePublished\">$year</dd>" >> books/$bookFileName
+    echo "<dd property=\"datePublished\">$publishedDate</dd>" >> books/$bookFileName
+    echo "<dt>Bookshelves</dt>" >> books/$bookFileName
+    echo "<dd property="bookshelf">Uncategorized</dd>" >> books/$bookFileName
     echo "<dt>Genres</dt>" >> books/$bookFileName
     for category in "${categories[@]}"; do
         echo "<dd property=\"genre\">$category</dd>" >> "books/$bookFileName"
@@ -108,6 +110,9 @@ if [ "$correct" == "y" ]; then
     echo "</dl>" >> books/$bookFileName
 
     echo "Book added to library!"
+
+    # open book file in editor
+    code books/$bookFileName
 else
   echo "Book not added to library. Please refine your search."
 fi
