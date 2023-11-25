@@ -208,6 +208,7 @@ sub read_book {
 #     $content .= render_book_list_item($books{$file}, $file);
 # }
 sub render_book_list_item {
+    # TODO: pass in relative link to book page
     my ($book_info, $file) = @_;
 
     # Extract book data
