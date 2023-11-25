@@ -284,7 +284,8 @@ sub render_book_list_item {
         if (scalar @{$authors{$author_name}} > 1) {
             my $author_filename = $author_name;
             $author_filename =~ s/\s/_/g;  # Replace spaces with underscores for the filename
-            $author_display = sprintf("<a href='/author/%s.html'>%s</a>",
+            $author_display = sprintf("<a href='%sauthor/%s.html'>%s</a>",
+                                    $relative_link,
                                     encode_entities($author_filename),
                                     encode_entities($author_name));
         } else {
