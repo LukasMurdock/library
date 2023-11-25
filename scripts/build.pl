@@ -324,4 +324,14 @@ sub render_book_list_item {
                    );
 }
 
+my $book_count = scalar keys %books;
+my $author_count = scalar keys %authors;
+my $genre_count = scalar keys %genres;
+my $bookshelf_count = scalar keys %bookshelves;
+print "Scanned " . $book_count . " books\n";
+print "Built " . $author_count . " authors\n";
+print "Built " . $genre_count . " genres\n";
+print "Built " . $bookshelf_count . " bookshelves\n";
+
+
 1;
