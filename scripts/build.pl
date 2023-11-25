@@ -48,7 +48,9 @@ for my $author (keys %authors) {
     # my $content = join("<br>", @{$authors{$author}});
     my $content = "<ul>";
     foreach my $file (@{$authors{$author}}) {
-        $content .= sprintf("<li><a href='%s'>%s</a></li>", $file, $file);
+        # $content .= sprintf("<li><a href='%s'>%s</a></li>", $file, $file);
+        # Constructing the list item
+        $content .= render_book_list_item($books{$file}, $file, '../');
     }
     $content .= "</ul>";
     my $html = html_doc($author, $content);
@@ -128,6 +130,24 @@ foreach my $bookshelf (sort keys %bookshelves) {
 $bookshelves_index_content .= "</ul>";
 my $bookshelves_index_html = html_doc("Bookshelves", $bookshelves_index_content);
 write_file("./output/bookshelves.html", $bookshelves_index_html);
+
+# Create author index page
+my $author_index_content = "<ul>";
+foreach my $author (sort keys %authors) {
+    my $filename = $author;
+    $filename =~ s/\s/_/g;
+    $filename = "author/$filename.html";
+    # get book count for the author
+    my $book_count = scalar @{$authors{$author}};
+
+    $author_index_content .= sprintf("<li><a href='%s'>%s</a> (%s)</li>",
+                                    $filename,
+                                    $author,
+                                    $book_count);
+}
+$author_index_content .= "</ul>";
+my $author_index_html = html_doc("Authors", $author_index_content);
+write_file("./output/author.html", $author_index_html);
 
 # Create a sorted books page with links and data-genres attribute
 my $sorted_content = "<ul>";
