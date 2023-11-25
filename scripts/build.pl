@@ -69,7 +69,8 @@ for my $genre (keys %genres) {
         $content .= render_book_list_item($books{$file}, $file, '../');
     }
     $content .= "</ul>";
-    write_file($filename, $content);
+    my $html = html_doc($genre, $content);
+    write_file($filename, $html);
 }
 
 # Create genre index page
@@ -88,7 +89,8 @@ foreach my $genre (sort keys %genres) {
                                     $book_count);
 }
 $genre_index_content .= "</ul>";
-write_file("./output/genres.html", $genre_index_content);
+my $genre_index_html = html_doc("Genres", $genre_index_content);
+write_file("./output/genres.html", $genre_index_html);
 
 # Create bookshelves pages
 for my $bookshelf (keys %bookshelves) {
@@ -103,7 +105,8 @@ for my $bookshelf (keys %bookshelves) {
         $content .= render_book_list_item($books{$file}, $file, '../');
     }
     $content .= "</ul>";
-    write_file($filename, $content);
+    my $html = html_doc($bookshelf, $content);
+    write_file($filename, $html);
 }
 
 # Create bookshelves index page
@@ -121,7 +124,8 @@ foreach my $bookshelf (sort keys %bookshelves) {
                                     $book_count);
 }
 $bookshelves_index_content .= "</ul>";
-write_file("./output/bookshelves.html", $bookshelves_index_content);
+my $bookshelves_index_html = html_doc("Bookshelves", $bookshelves_index_content);
+write_file("./output/bookshelves.html", $bookshelves_index_html);
 
 # Create a sorted books page with links and data-genres attribute
 my $sorted_content = "<ul>";
@@ -129,7 +133,8 @@ foreach my $file (sort { $books{$a}->{date} cmp $books{$b}->{date} } keys %books
     $sorted_content .= render_book_list_item($books{$file}, $file);
 }
 $sorted_content .= "</ul>";
-write_file("./output/sorted_books.html", $sorted_content);
+my $sorted_html = html_doc("Sorted Books", $sorted_content);
+write_file("./output/sorted_books.html", $sorted_html);
 
 # Create an index page to links to sorted, genre, author, and bookshelves pages
 my $index_content = "<ul>";
@@ -138,7 +143,31 @@ $index_content .= "<li><a href='genres.html'>Genres</a></li>";
 $index_content .= "<li><a href='bookshelves.html'>Bookshelves</a></li>";
 $index_content .= "<li><a href='author.html'>Authors</a></li>";
 $index_content .= "</ul>";
-write_file("./output/index.html", $index_content);
+my $home_html = html_doc("Index", $index_content);
+write_file("./output/index.html", $home_html);
+
+sub html_doc {
+    my $title = shift;
+    my $content = shift;
+
+    my $html = <<HTML;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>$title</title>
+</head>
+<body>
+    <div class="container">
+        $content
+    </div>
+</body>
+</html>
+HTML
+
+    return $html;
+}
 
 # Function to read and extract book data
 sub read_book {
