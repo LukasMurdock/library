@@ -1,3 +1,5 @@
+# !/bin/bash
+
 # Build site
 perl scripts/build.pl
 
