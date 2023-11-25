@@ -63,7 +63,7 @@ for my $genre (keys %genres) {
     my $content = "<ul>";
     foreach my $file (@{$genres{$genre}}) {
         # Constructing the list item
-        $content .= render_book_list_item($books{$file}, $file);
+        $content .= render_book_list_item($books{$file}, $file, '../');
     }
     $content .= "</ul>";
     write_file($filename, $content);
@@ -96,7 +96,7 @@ for my $bookshelf (keys %bookshelves) {
     # foreach my $file (@{$bookshelves{$bookshelf}}) {
     foreach my $file (sort { $books{$a}->{date} cmp $books{$b}->{date} } @{$bookshelves{$bookshelf}}) {
         # Constructing the list item
-        $content .= render_book_list_item($books{$file}, $file);
+        $content .= render_book_list_item($books{$file}, $file, '../');
     }
     $content .= "</ul>";
     write_file($filename, $content);
@@ -209,7 +209,10 @@ sub read_book {
 # }
 sub render_book_list_item {
     # TODO: pass in relative link to book page
-    my ($book_info, $file) = @_;
+    my ($book_info, $file, $relative_link) = @_;
+
+    # if relative link is not passed in, make it empty
+    $relative_link //= '';
 
     # Extract book data
     my $date = $book_info->{date} // 'N/A';
@@ -226,7 +229,7 @@ sub render_book_list_item {
         if (scalar @{$authors{$author_name}} > 1) {
             my $author_filename = $author_name;
             $author_filename =~ s/\s/_/g;  # Replace spaces with underscores for the filename
-            $author_display = sprintf("<a href='author_%s.html'>%s</a>",
+            $author_display = sprintf("<a href='/author/%s.html'>%s</a>",
                                     encode_entities($author_filename),
                                     encode_entities($author_name));
         } else {
@@ -242,8 +245,9 @@ sub render_book_list_item {
     my $bookshelves = $book_info->{bookshelves} // [];
 
     # Constructing the list item
-    return sprintf("<li>%s <a href='%s' data-genres='%s' data-bookshelves='%s'>%s</a> by %s (%s pages)</li>",
+    return sprintf("<li>%s <a href='%s%s' data-genres='%s' data-bookshelves='%s'>%s</a> by %s (%s pages)</li>",
                    encode_entities($date),
+                   encode_entities($relative_link),
                    encode_entities($file),
                    encode_entities($genres_attr),
                    encode_entities(join(", ", @{$book_info->{bookshelves}})),
