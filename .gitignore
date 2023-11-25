@@ -1,3 +1,5 @@
 # Ignore output directory
 output
 tmp
+
+.DS_Store
