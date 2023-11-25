@@ -53,15 +53,18 @@ for my $author (keys %authors) {
     write_file($filename, $content);
 }
 
-# Create genre pages
+# Create genre pages, sorted by date
 for my $genre (keys %genres) {
     my $filename = $genre;
     $filename =~ s/\s/_/g;
     $filename = "./output/genre/$filename.html";
-    # my $content = join("<br>", @{$genres{$genre}});
+
+    # Sort books by date within the genre
+    my @sorted_books = sort { $books{$a}->{date} cmp $books{$b}->{date} } @{$genres{$genre}};
+
     # Create a list of books by the genre with links
     my $content = "<ul>";
-    foreach my $file (@{$genres{$genre}}) {
+    foreach my $file (@sorted_books) {
         # Constructing the list item
         $content .= render_book_list_item($books{$file}, $file, '../');
     }
@@ -75,6 +78,7 @@ foreach my $genre (sort keys %genres) {
     my $filename = $genre;
     $filename =~ s/\s/_/g;
     $filename = "genre/$filename.html";
+
     # get book count for the genre
     my $book_count = scalar @{$genres{$genre}};
 
@@ -244,8 +248,19 @@ sub render_book_list_item {
 
     my $bookshelves = $book_info->{bookshelves} // [];
 
+    # bookshelf icons, e.g., Have Read: 📘
+    my %bookshelf_icons = (
+        'Have Read' => '📘',
+        'To Read' => '📚',
+        'Favorites' => '🏆',
+        'Uncategorized' => ''
+    );
+
+
+
+
     # Constructing the list item
-    return sprintf("<li>%s <a href='%s%s' data-genres='%s' data-bookshelves='%s'>%s</a> by %s (%s pages)</li>",
+    return sprintf("<li>%s <a href='%s%s' data-genres='%s' data-bookshelves='%s'>%s</a> by %s (%s pages) %s</li>",
                    encode_entities($date),
                    encode_entities($relative_link),
                    encode_entities($file),
@@ -253,7 +268,9 @@ sub render_book_list_item {
                    encode_entities(join(", ", @{$book_info->{bookshelves}})),
                    encode_entities($name),
                    $authors_str,
-                   encode_entities($pages));
+                   encode_entities($pages),
+                    join(", ", map { $bookshelf_icons{$_} // $_ } @{$book_info->{bookshelves}})
+                   );
 }
 
 1;
