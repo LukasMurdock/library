@@ -35,7 +35,8 @@ mkdir "./output/bookshelves" unless -d "./output/bookshelves";
 # Create individual book pages
 for my $file (keys %books) {
     my $content = read_file("./books/$file");
-    write_file("./output/$file", $content);
+    my $html = html_doc($books{$file}->{name}, $content);
+    write_file("./output/$file", $html);
 }
 
 # Create author pages
@@ -50,7 +51,8 @@ for my $author (keys %authors) {
         $content .= sprintf("<li><a href='%s'>%s</a></li>", $file, $file);
     }
     $content .= "</ul>";
-    write_file($filename, $content);
+    my $html = html_doc($author, $content);
+    write_file($filename, $html);
 }
 
 # Create genre pages, sorted by date
