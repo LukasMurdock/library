@@ -91,15 +91,33 @@ for my $bookshelf (keys %bookshelves) {
     my $filename = $bookshelf;
     $filename =~ s/\s/_/g;
     $filename = "./output/bookshelves/$filename.html";
-    # Create a list of books by the bookshelf with links
+    # Create a list of books by the bookshelf with links, sorted by date
     my $content = "<ul>";
-    foreach my $file (@{$bookshelves{$bookshelf}}) {
+    # foreach my $file (@{$bookshelves{$bookshelf}}) {
+    foreach my $file (sort { $books{$a}->{date} cmp $books{$b}->{date} } @{$bookshelves{$bookshelf}}) {
         # Constructing the list item
         $content .= render_book_list_item($books{$file}, $file);
     }
     $content .= "</ul>";
     write_file($filename, $content);
 }
+
+# Create bookshelves index page
+my $bookshelves_index_content = "<ul>";
+foreach my $bookshelf (sort keys %bookshelves) {
+    my $filename = $bookshelf;
+    $filename =~ s/\s/_/g;
+    $filename = "bookshelves/$filename.html";
+    # get book count for the bookshelf
+    my $book_count = scalar @{$bookshelves{$bookshelf}};
+
+    $bookshelves_index_content .= sprintf("<li><a href='%s'>%s</a> (%s)</li>",
+                                    $filename,
+                                    $bookshelf,
+                                    $book_count);
+}
+$bookshelves_index_content .= "</ul>";
+write_file("./output/bookshelves.html", $bookshelves_index_content);
 
 # Create a sorted books page with links and data-genres attribute
 my $sorted_content = "<ul>";
@@ -108,6 +126,15 @@ foreach my $file (sort { $books{$a}->{date} cmp $books{$b}->{date} } keys %books
 }
 $sorted_content .= "</ul>";
 write_file("./output/sorted_books.html", $sorted_content);
+
+# Create an index page to links to sorted, genre, author, and bookshelves pages
+my $index_content = "<ul>";
+$index_content .= "<li><a href='sorted_books.html'>Sorted Books</a></li>";
+$index_content .= "<li><a href='genres.html'>Genres</a></li>";
+$index_content .= "<li><a href='bookshelves.html'>Bookshelves</a></li>";
+$index_content .= "<li><a href='author.html'>Authors</a></li>";
+$index_content .= "</ul>";
+write_file("./output/index.html", $index_content);
 
 # Function to read and extract book data
 sub read_book {
