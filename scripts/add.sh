@@ -102,7 +102,7 @@ if [ "$correct" == "y" ]; then
     echo "<dt>Date Published</dt>" >> books/$bookFileName
     echo "<dd property=\"datePublished\">$publishedDate</dd>" >> books/$bookFileName
     echo "<dt>Bookshelves</dt>" >> books/$bookFileName
-    echo "<dd property="bookshelf">Uncategorized</dd>" >> books/$bookFileName
+    echo "<dd property=\"bookshelf\">Uncategorized</dd>" >> books/$bookFileName
     echo "<dt>Genres</dt>" >> books/$bookFileName
     for category in "${categories[@]}"; do
         echo "<dd property=\"genre\">$category</dd>" >> "books/$bookFileName"
