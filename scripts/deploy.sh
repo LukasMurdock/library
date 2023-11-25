@@ -1,1 +1,1 @@
-wrangler pages deploy output
+wrangler pages deploy output --project-name library
