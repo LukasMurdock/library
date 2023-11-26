@@ -150,12 +150,14 @@ my $author_index_html = html_doc("Authors", $author_index_content);
 write_file("./output/author.html", $author_index_html);
 
 # Create a sorted books page with links and data-genres attribute
-my $sorted_content = "<ul>";
+my $sorted_content = "<ul id='filter-list'>";
 foreach my $file (sort { $books{$a}->{date} cmp $books{$b}->{date} } keys %books) {
     $sorted_content .= render_book_list_item($books{$file}, $file);
 }
 $sorted_content .= "</ul>";
-my $sorted_html = html_doc("Sorted Books", $sorted_content);
+
+my $sorted_html_head = "<script src='./js/filter.js'></script>";
+my $sorted_html = html_doc("Sorted Books", $sorted_content, $sorted_html_head);
 write_file("./output/sorted_books.html", $sorted_html);
 
 # Create an index page to links to sorted, genre, author, and bookshelves pages
@@ -171,6 +173,7 @@ write_file("./output/index.html", $home_html);
 sub html_doc {
     my $title = shift;
     my $content = shift;
+    my $head = shift;
 
     my $html = <<HTML;
 <!DOCTYPE html>
@@ -179,6 +182,7 @@ sub html_doc {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
     <title>$title</title>
+    $head
 </head>
 <body>
     <div class="container">

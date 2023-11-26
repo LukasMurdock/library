@@ -31,7 +31,6 @@ subtitle=$(jq '.items[0].volumeInfo.subtitle' tmp/q-g-api.json)
 pageCount=$(jq '.items[0].volumeInfo.pageCount' tmp/q-g-api.json)
 IFS=$'\n' read -r -d '' -a categories < <(jq -r '.items[0].volumeInfo.categories[]' tmp/q-g-api.json)
 
-
 echo "---"
 
 echo "Title: $title"
