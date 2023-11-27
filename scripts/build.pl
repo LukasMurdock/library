@@ -174,6 +174,8 @@ sub html_doc {
     my $title = shift;
     my $content = shift;
     my $head = shift;
+    # initialize head to empty string if not passed in
+    $head //= '';
 
     my $html = <<HTML;
 <!DOCTYPE html>
