@@ -32,6 +32,9 @@ mkdir "./output/author" unless -d "./output/author";
 # Create bookshelves directory if not exists
 mkdir "./output/bookshelves" unless -d "./output/bookshelves";
 
+# migrate assets folder
+system("cp -r ./assets ./output/assets");
+
 # Create individual book pages
 for my $file (keys %books) {
     my $content = read_file("./books/$file");

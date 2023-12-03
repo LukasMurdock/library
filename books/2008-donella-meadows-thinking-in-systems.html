@@ -484,280 +484,444 @@
       once you have started to explore the behavior of even very simple systems,
       you may well find that you wish to learn more about building your own formal
       mathematical models of systems. The models in this book were originally
-      developed using STELLA modeling software, by isee systems Inc. (formerly
-      High Performance Systems). The equations in this section are written to be
-      easily translated into various modeling software, such as Vensim by Ventana
-      Systems Inc. as well as STELLA and iThink by isee systems Inc.
+      developed using <span class="italic">STELLA </span>modeling software, by
+      isee systems Inc. (formerly High Performance Systems). The equations in this
+      section are written to be easily translated into various modeling software,
+      such as <span class="italic">Vensim </span>by Ventana Systems Inc. as well
+      as <span class="italic">STELLA </span>and
+      <span class="italic">iThink </span>by isee systems Inc.
     </p>
     <p>
       The following model equations are those used for the nine dynamic models
       discussed in chapters 1 and 2. &ldquo;Converters&rdquo; can be constants or
       calculations based on other elements of the system model. Time is
-      abbreviated (t) and the change in time from one calculation to the next, the
-      time interval, is noted as (dt).
+      abbreviated (<span class="italic"
+        >t) and the change in time from one calculation to the next, the time
+        interval, is noted as (<span class="italic">dt</span>).
+      </span>
     </p>
-    <p>Chapter One</p>
-    <p>Bathtub&mdash;for Figures 5, 6 and 7</p>
+    <p><span class="bold">Chapter One</span></p>
+    <p><span class="bold">Bathtub</span>&mdash;for Figures 5, 6 and 7</p>
     <p>
-      Stock: water in tub(t) = water in tub(t &ndash; dt) + (inflow &ndash;
-      outflow) &times; dt Initial stock value: water in tub = 50 gal
+      Stock: <span class="italic">water in tub(t) </span>=
+      <span class="italic">water in tub(t &ndash; dt) </span>+
+      <span class="italic">(inflow &ndash; outflow) </span>&times;
+      <span class="italic">dt </span>Initial stock value:
+      <span class="italic">water in tub </span>= 50 gal
     </p>
-    <p>t = minutes</p>
-    <p>dt = 1 minute</p>
+    <p><span class="italic">t </span>= minutes</p>
+    <p><span class="italic">dt </span>= 1 minute</p>
     <p>Run time = 10 minutes</p>
     <p>
-      Inflow: inflow = 0 gal/min . . . for time 0 to 5; 5 gal/min . . . for time 6
-      to 10
+      Inflow: <span class="italic">inflow </span>= 0 gal/min . . . for time 0 to
+      5; 5 gal/min . . . for time 6 to 10
     </p>
-    <p>Outflow: outflow = 5 gal/min</p>
-    <p>Coffee Cup Cooling or Warming&mdash;for Figures 10 and 11</p>
-    <p>Cooling</p>
+    <p>Outflow: <span class="italic">outflow </span>= 5 gal/min</p>
     <p>
-      Stock: coffee temperature(t) = coffee temperature (t &ndash; dt) &ndash;
-      (cooling &times; dt) Initial stock value: coffee temperature = 100&deg;C,
-      80&deg;C, and 60&deg;C . . . for three comparative model runs.
+      <span class="bold">Coffee Cup Cooling or Warming</span>&mdash;for Figures 10
+      and 11
     </p>
-    <p>t = minutes</p>
-    <p>dt = 1 minute</p>
+    <p><span class="italic">Cooling </span></p>
+    <p>
+      Stock: <span class="italic">coffee temperature(t) </span>=
+      <span class="italic">coffee temperature (t &ndash; dt) </span>&ndash;
+      <span class="italic">(cooling </span>&times;
+      <span class="italic">dt) </span>Initial stock value:
+      <span class="italic">coffee temperature </span>= 100&deg;C, 80&deg;C, and
+      60&deg;C . . . for three comparative model runs.
+    </p>
+    <p><span class="italic">t </span>= minutes</p>
+    <p><span class="italic">dt </span>= 1 minute</p>
     <p>Run time = 8 minutes</p>
-    <p>Outflow: cooling = discrepancy &times; 10%</p>
     <p>
-      Converters: discrepancy = coffee temperature &ndash; room temperature room
-      temperature = 18&deg;C
-    </p>
-    <p>Warming</p>
-    <p>
-      Stock: coffee temperature(t) = coffee temperature(t &ndash; dt) + (heating
-      &times; dt)
+      Outflow: <span class="italic">cooling </span>=
+      <span class="italic">discrepancy </span>&times; 10%
     </p>
     <p>
-      Initial stock value: coffee temperature = 0&deg;C, 5&deg;C, and 10&deg;C . .
-      . for three comparative model runs.
+      Converters: <span class="italic">discrepancy </span>=
+      <span class="italic">coffee temperature </span>&ndash;
+      <span class="italic">room temperature room temperature </span>= 18&deg;C
     </p>
-    <p>t = minutes</p>
-    <p>dt = 1 minute</p>
+    <p><span class="italic">Warming </span></p>
+    <p>
+      Stock: <span class="italic">coffee temperature(t) </span>=
+      <span class="italic">coffee temperature(t &ndash; dt) </span>+
+      <span class="italic">(heating </span>&times;
+      <span class="italic">dt) </span>
+    </p>
+    <p>
+      Initial stock value: <span class="italic">coffee temperature </span>=
+      0&deg;C, 5&deg;C, and 10&deg;C . . . for three comparative model runs.
+    </p>
+    <p><span class="italic">t </span>= minutes</p>
+    <p><span class="italic">dt </span>= 1 minute</p>
     <p>Run time = 8 minutes</p>
-    <p>Inflow: heating = discrepancy &times; 10%</p>
     <p>
-      Converters: discrepancy = room temperature &ndash; coffee temperature room
-      temperature = 18&deg;C
+      Inflow: <span class="italic">heating </span>=
+      <span class="italic">discrepancy </span>&times; 10%
     </p>
-    <p>Bank Account&mdash;for Figures 12 and 13</p>
     <p>
-      Stock: money in bank account(t) = money in bank account(t &ndash; dt) +
-      (interest added &times; dt)
+      Converters: <span class="italic">discrepancy </span>=
+      <span class="italic">room temperature </span>&ndash;
+      <span class="italic">coffee temperature room temperature </span>= 18&deg;C
     </p>
-    <p>Initial stock value: money in bank account = $100</p>
-    <p>t = years dt = 1 year</p>
+    <p><span class="bold">Bank Account</span>&mdash;for Figures 12 and 13</p>
+    <p>
+      Stock: <span class="italic">money in bank account(t) </span>=
+      <span class="italic">money in bank account(t &ndash; dt) </span>+
+      <span class="italic">(interest added </span>&times;
+      <span class="italic">dt) </span>
+    </p>
+    <p>
+      Initial stock value: <span class="italic">money in bank account </span>=
+      $100
+    </p>
+    <p>
+      <span class="italic">t </span>= years <span class="italic">dt </span>= 1
+      year
+    </p>
     <p>Run time = 12 years</p>
     <p>
-      Inflow: interest added ($/year) = money in bank account &times; interest
-      rate
+      Inflow: <span class="italic">interest added </span>($/year) =
+      <span class="italic">money in bank account </span>&times;
+      <span class="italic">interest rate </span>
     </p>
     <p>
-      Converter: interest rate = 2%, 4%, 6%, 8%, &amp; 10% annual interest . . .
-      for five comparative model runs.
+      Converter: <span class="italic">interest rate </span>= 2%, 4%, 6%, 8%, &amp;
+      10% annual interest . . . for five comparative model runs.
     </p>
-    <p>Chapter Two</p>
-    <p>Thermostat&mdash;For Figures 14&ndash;20</p>
+    <p><span class="bold">Chapter Two</span></p>
+    <p><span class="bold">Thermostat</span>&mdash;For Figures 14&ndash;20</p>
     <p>
-      Stock: room temperature(t) = room temperature(t &ndash; dt) + (heat from
-      furnace &ndash; heat to outside) &times; dt
+      Stock: <span class="italic">room temperature(t) </span>=
+      <span class="italic">room temperature(t &ndash; dt) </span>+
+      <span class="italic">(heat from furnace &ndash; heat to outside) </span
+      >&times; <span class="italic">dt </span>
     </p>
-    <p>Initial stock value: room temperature = 10&deg;C for cold-room warming;</p>
+    <p>
+      Initial stock value: <span class="italic">room temperature </span>= 10&deg;C
+      for cold-room warming;
+    </p>
     <p>18&deg;C for warm-room cooling</p>
-    <p>t = hours</p>
-    <p>dt = 1 hour</p>
+    <p><span class="italic">t </span>= hours</p>
+    <p><span class="italic">dt </span>= 1 hour</p>
     <p>Run time = 8 hours and 24 hours</p>
     <p>
-      Inflow: heat from furnace = minimum of discrepancy between desired and
-      actual room temperature or 5
+      Inflow: <span class="italic">heat from furnace </span>= minimum of
+      <span class="italic"
+        >discrepancy between desired and actual room temperature or 5
+      </span>
     </p>
     <p>
-      Outflow: heat to outside = discrepancy between inside and outside
-      temperature &times; 10% . . . for &ldquo;normal&rdquo; house; discrepancy
-      between inside and outside temperature &times; 30% . . . for very leaky
-      house
+      Outflow: <span class="italic">heat to outside </span>=
+      <span class="italic"
+        >discrepancy between inside and outside temperature &times; 10% . . . for
+        &ldquo;normal&rdquo; house;
+        <span class="italic"
+          >discrepancy between inside and outside temperature &times; 30% . . .
+          for very leaky house
+        </span></span
+      >
     </p>
     <p>
-      Converters: thermostat setting = 18&deg;C discrepancy between desired and
-      actual room temperature = maximum of (thermostat setting &ndash; room
-      temperature) or 0 discrepancy between inside and outside temperature = room
-      temperature &ndash; 10&deg;C . . . for constant outside temperature (Figures
-      16&ndash;18); room temperature &ndash; 24-hour outside temp . . . for full
-      day-and night cycle (Figures 19 and 20) 24-hour outside temp ranges from
-      10&deg;C (50&deg;F) during the day to &ndash; 5&deg;C (23&deg;F) at night,
-      as shown in graph
+      Converters: <span class="italic">thermostat setting </span>= 18&deg;C
+      <span class="italic"
+        >discrepancy between desired and actual room temperature = maximum of
+        (<span class="italic">thermostat setting </span>&ndash;
+        <span class="italic">room temperature</span>) or 0
+        <span class="italic"
+          >discrepancy between inside and outside temperature =
+          <span class="italic">room temperature </span>&ndash; 10&deg;C . . . for
+          constant outside temperature (Figures 16&ndash;18);
+          <span class="italic">room temperature </span>&ndash;
+          <span class="italic">24-hour outside temp </span>. . . for full day-and
+          night cycle (Figures 19 and 20)
+          <span class="italic">24-hour outside temp </span>ranges from 10&deg;C
+          (50&deg;F) during the day to &ndash; 5&deg;C (23&deg;F) at night, as
+          shown in graph
+        </span></span
+      >
     </p>
     <p><img src="images/00015.jpg" alt="" /></p>
-    <p>Population&mdash;for Figures 21&ndash;26</p>
+    <p><span class="bold">Population</span>&mdash;for Figures 21&ndash;26</p>
     <p>
-      Stock: population(t) = population(t &ndash; dt) + (births &ndash; deaths)
-      &times; dt Initial stock value: population = 6.6 billion people
+      Stock: <span class="italic">population(t) </span>=
+      <span class="italic">population(t &ndash; dt) </span>+ (<span class="italic"
+        >births &ndash; <span class="italic">deaths</span>) &times;
+        <span class="italic">dt </span>Initial stock value:
+        <span class="italic">population </span>= 6.6 billion people
+      </span>
     </p>
-    <p>t = years</p>
-    <p>dt = 1 year</p>
+    <p><span class="italic">t </span>= years</p>
+    <p><span class="italic">dt </span>= 1 year</p>
     <p>Run time = 100 years</p>
-    <p>Inflow: births = population &times; fertility</p>
-    <p>Outflow: deaths = population &times; mortality <br />Converters:</p>
+    <p>
+      Inflow: <span class="italic">births </span>=
+      <span class="italic">population </span>&times;
+      <span class="italic">fertility </span>
+    </p>
+    <p>
+      Outflow: <span class="italic">deaths </span>=
+      <span class="italic">population </span>&times;
+      <span class="italic">mortality <br />Converters: </span>
+    </p>
     <p>Figure 22:</p>
-    <p>mortality = .009 . . . or 9 deaths per 1000 population</p>
-    <p>fertility = .021 . . . or 21 births per 1000 population</p>
+    <p>
+      <span class="italic">mortality </span>= .009 . . . or 9 deaths per 1000
+      population
+    </p>
+    <p>
+      <span class="italic">fertility </span>= .021 . . . or 21 births per 1000
+      population
+    </p>
     <p>Figure 23:</p>
-    <p>mortality = .030</p>
-    <p>fertility = .021</p>
+    <p><span class="italic">mortality </span>= .030</p>
+    <p><span class="italic">fertility </span>= .021</p>
     <p>Figure 24:</p>
-    <p>mortality = .009</p>
-    <p>fertility starts at .021 and falls over time to .009 as shown in graph</p>
+    <p><span class="italic">mortality </span>= .009</p>
+    <p>
+      <span class="italic">fertility </span>starts at .021 and falls over time to
+      .009 as shown in graph
+    </p>
     <p><img src="images/00016.jpg" alt="" /></p>
     <p>Figure 26:</p>
-    <p>mortality = .009</p>
+    <p><span class="italic">mortality </span>= .009</p>
     <p>
-      fertility starts at .021, drops to .009, but then rises .030 as shown in
-      graph
+      <span class="italic">fertility </span>starts at .021, drops to .009, but
+      then rises .030 as shown in graph
     </p>
     <p><img src="images/00017.jpg" alt="" /></p>
-    <p>Capital&mdash;for Figures 27 and 28</p>
+    <p><span class="bold">Capital</span>&mdash;for Figures 27 and 28</p>
     <p>
-      Stock: capital stock(t) = capital stock(t &ndash; dt) + (investment &ndash;
-      depreciation) &times; dt Initial stock value: capital stock = 100
+      Stock: <span class="italic">capital stock(t) </span>=
+      <span class="italic">capital stock(t &ndash; dt) </span>+ (<span
+        class="italic"
+        >investment &ndash; <span class="italic">depreciation</span>) &times;
+        <span class="italic">dt </span>Initial stock value:
+        <span class="italic">capital stock </span>= 100
+      </span>
     </p>
-    <p>t = years</p>
-    <p>dt = 1 year</p>
+    <p><span class="italic">t </span>= years</p>
+    <p><span class="italic">dt </span>= 1 year</p>
     <p>Run time = 50 years</p>
-    <p>Inflow: investment = annual output &times; investment fraction</p>
-    <p>Outflow: depreciation = capital stock / capital lifetime</p>
     <p>
-      Converters: annual output = capital stock &times; output per unit capital
-      capital lifetime = 10 years, 15 years, and 20 years . . . for three
-      comparative model runs.
+      Inflow: <span class="italic">investment </span>=
+      <span class="italic">annual output </span>&times;
+      <span class="italic">investment fraction </span>
     </p>
-    <p>investment fraction = 20%</p>
-    <p>output per unit capital = 1/3</p>
-    <p>Business Inventory&mdash;for Figures 29&ndash;36</p>
     <p>
-      Stock: inventory of cars on the lot(t) = inventory of cars on the lot(t
-      &ndash; dt) + (deliveries &ndash; sales) &times; dt Initial stock values:
-      inventory of cars on the lot = 200 cars
+      Outflow: <span class="italic">depreciation </span>=
+      <span class="italic">capital stock </span>/
+      <span class="italic">capital lifetime </span>
     </p>
-    <p>t = days</p>
-    <p>dt = 1 day</p>
+    <p>
+      Converters: <span class="italic">annual output </span>=
+      <span class="italic">capital stock </span>&times;
+      <span class="italic">output per unit capital capital lifetime </span>= 10
+      years, 15 years, and 20 years . . . for three comparative model runs.
+    </p>
+    <p><span class="italic">investment fraction </span>= 20%</p>
+    <p><span class="italic">output per unit capital </span>= 1/3</p>
+    <p>
+      <span class="bold">Business Inventory</span>&mdash;for Figures 29&ndash;36
+    </p>
+    <p>
+      Stock: <span class="italic">inventory of cars on the lot(t) </span>=
+      <span class="italic">inventory of cars on the lot(t &ndash; dt) </span>+
+      (<span class="italic"
+        >deliveries &ndash; <span class="italic">sales</span>) &times;
+        <span class="italic">dt </span>Initial stock values:
+        <span class="italic">inventory of cars on the lot </span>= 200 cars
+      </span>
+    </p>
+    <p><span class="italic">t </span>= days</p>
+    <p><span class="italic">dt </span>= 1 day</p>
     <p>Run time = 100 days</p>
     <p>
-      Inflows: deliveries = 20 . . . for time 0 to 5; orders to factory (t &ndash;
-      delivery delay) . . . for time 6 to 100
+      Inflows: <span class="italic">deliveries </span>= 20 . . . for time 0 to 5;
+      <span class="italic">orders to factory (t &ndash; delivery delay) </span>. .
+      . for time 6 to 100
     </p>
     <p>
-      Outflows: sales = minimum of inventory of cars on the lot or customer demand
+      Outflows: <span class="italic">sales </span>= minimum of
+      <span class="italic">inventory of cars on the lot </span>or
+      <span class="italic">customer demand </span>
     </p>
     <p>
-      Converters: customer demand = 20 cars per day . . . for time 0 to 25; 22
-      cars per day . . . for time 26 to 100
+      Converters: <span class="italic">customer demand </span>= 20 cars per day .
+      . . for time 0 to 25; 22 cars per day . . . for time 26 to 100
     </p>
     <p>
-      perceived sales = sales averaged over perception delay (i.e., sales smoothed
-      over perception delay)
-    </p>
-    <p>desired inventory = perceived sales &times; 10</p>
-    <p>discrepancy = desired inventory &ndash; inventory of cars on the lot</p>
-    <p>
-      orders to factory = maximum of (perceived sales + discrepancy) or 0 . . .
-      for
+      <span class="italic">perceived sales </span>=
+      <span class="italic">sales </span>averaged over
+      <span class="italic">perception delay </span>(i.e.,
+      <span class="italic">sales </span>smoothed over
+      <span class="italic">perception delay</span>)
     </p>
     <p>
-      Figure 32; maximum of (perceived sales + discrepancy/response delay) or 0 .
-      . . for Figures 34&ndash;36
+      <span class="italic">desired inventory </span>=
+      <span class="italic">perceived sales </span>&times; 10
+    </p>
+    <p>
+      <span class="italic">discrepancy </span>=
+      <span class="italic">desired inventory </span>&ndash;
+      <span class="italic">inventory of cars on the lot </span>
+    </p>
+    <p>
+      <span class="italic">orders to factory </span>= maximum of (<span
+        class="italic"
+        >perceived sales + <span class="italic">discrepancy</span>) or 0 . . . for
+      </span>
+    </p>
+    <p>
+      Figure 32; maximum of (<span class="italic">perceived sales </span>+
+      <span class="italic">discrepancy</span>/<span class="italic"
+        >response delay) or 0 . . . for Figures 34&ndash;36
+      </span>
     </p>
     <blockquote>Delays, Figure 30:</blockquote>
-    <p>perception delay = 0</p>
-    <p>response delay = 0</p>
-    <p>delivery delay = 0</p>
+    <p><span class="italic">perception delay </span>= 0</p>
+    <p><span class="italic">response delay </span>= 0</p>
+    <p><span class="italic">delivery delay </span>= 0</p>
     <p>Delays, Figure 32:</p>
-    <p>perception delay = 5 days</p>
-    <p>response delay = 3 days</p>
-    <p>delivery delay = 5 days</p>
+    <p><span class="italic">perception delay </span>= 5 days</p>
+    <p><span class="italic">response delay </span>= 3 days</p>
+    <p><span class="italic">delivery delay </span>= 5 days</p>
     <p>Delays, Figure 34:</p>
-    <p>perception delay = 2 days</p>
-    <p>response delay = 3 days</p>
-    <p>delivery delay = 5 days</p>
+    <p><span class="italic">perception delay </span>= 2 days</p>
+    <p><span class="italic">response delay </span>= 3 days</p>
+    <p><span class="italic">delivery delay </span>= 5 days</p>
     <p>Delays, Figure 35:</p>
-    <p>perception delay = 5 days</p>
-    <p>response delay = 2 days</p>
-    <p>delivery delay = 5 days</p>
+    <p><span class="italic">perception delay </span>= 5 days</p>
+    <p><span class="italic">response delay </span>= 2 days</p>
+    <p><span class="italic">delivery delay </span>= 5 days</p>
     <p>Delays, Figure 36:</p>
-    <p>perception delay = 5 days</p>
-    <p>response delay = 6 days</p>
-    <p>delivery delay = 5 days</p>
+    <p><span class="italic">perception delay </span>= 5 days</p>
+    <p><span class="italic">response delay </span>= 6 days</p>
+    <p><span class="italic">delivery delay </span>= 5 days</p>
     <p>
-      A Renewable Stock Constrained by a Nonrenewable Resource&mdash;for Figures
-      37&ndash;41 Stock: resource(t) = resource(t &ndash; dt) &ndash; (extraction
-      &times; dt)
+      <span class="bold"
+        >A Renewable Stock Constrained by a Nonrenewable Resource&mdash;for
+        Figures 37&ndash;41 Stock: <span class="italic">resource(t) </span>=
+        <span class="italic">resource(t &ndash; dt) </span>&ndash; (<span
+          class="italic"
+          >extraction &times; <span class="italic">dt</span>)
+        </span></span
+      >
     </p>
     <p>
-      Initial stock values: resource = 1000 . . . for Figures 38, 40, and 41;
-      1000, 2000, and 4000 . . . for three comparative model runs in Figure 39
-      Outflow: extraction = capital &times; yield per unit capital
+      Initial stock values: <span class="italic">resource </span>= 1000 . . . for
+      Figures 38, 40, and 41; 1000, 2000, and 4000 . . . for three comparative
+      model runs in Figure 39 Outflow: <span class="italic">extraction </span>=
+      <span class="italic">capital </span>&times;
+      <span class="italic">yield per unit capital</span>
     </p>
-    <p>t = years</p>
-    <p>dt = 1 year</p>
+    <p><span class="italic">t </span>= years</p>
+    <p><span class="italic">dt </span>= 1 year</p>
     <p>Run time = 100 years</p>
     <p>
-      Stock: capital(t) = capital(t &ndash; dt) + (investment &ndash;
-      depreciation) &times; dt
+      Stock: <span class="italic">capital(t) </span>=
+      <span class="italic">capital(t &ndash; dt) </span>+ (<span class="italic"
+        >investment &ndash; <span class="italic">depreciation</span>) &times;
+        <span class="italic">dt </span></span
+      >
     </p>
     <p>
-      Initial stock values: capital = 5 Inflow: investment = minimum of profit or
-      growth goal
-    </p>
-    <p>Outflow: depreciation = capital / capital lifetime</p>
-    <p>Converters: capital lifetime = 20 years</p>
-    <p>
-      profit = (price &times; extraction) &ndash; (capital &times; 10%) growth
-      goal = capital &times; 10% . . .
+      Initial stock values: <span class="italic">capital </span>= 5 Inflow:
+      <span class="italic">investment </span>= minimum of
+      <span class="italic">profit </span>or
+      <span class="italic">growth goal </span>
     </p>
     <p>
-      for Figures 30&ndash;40; capital &times; 6%, 8%, 10%, and 12% . . . for four
-      comparative model runs in Figure 40
+      Outflow: <span class="italic">depreciation </span>=
+      <span class="italic">capital </span>/
+      <span class="italic">capital lifetime</span>
+    </p>
+    <p>Converters: <span class="italic">capital lifetime </span>= 20 years</p>
+    <p>
+      <span class="italic">profit </span>= (<span class="italic">price </span
+      >&times; <span class="italic">extraction</span>) &ndash; (<span
+        class="italic"
+        >capital &times; 10%) <span class="italic">growth goal </span>=
+        <span class="italic">capital </span>&times; 10% . . .
+      </span>
     </p>
     <p>
-      price = 3 . . . for Figures 38, 39, and 40; for Figure 41, price starts at
-      1.2
+      for Figures 30&ndash;40; <span class="italic">capital </span>&times; 6%, 8%,
+      10%, and 12% . . . for four comparative model runs in Figure 40
+    </p>
+    <p>
+      <span class="italic">price </span>= 3 . . . for Figures 38, 39, and 40; for
+      Figure 41, price starts at 1.2
     </p>
     <p>
       when yield per unit capital is high and rises to 10 as yield per unit
       capital falls, as shown in graph
     </p>
     <p>
-      yield per unit capital starts at 1 when resource stock is high and falls to
-      0 as the resource stock declines, as shown in graph
+      <span class="italic">yield per unit capital </span>starts at 1 when resource
+      stock is high and falls to 0 as the resource stock declines, as shown in
+      graph
     </p>
     <p><img src="images/00018.jpg" alt="" /></p>
     <blockquote>
-      A Renewable Stock Constrained by a Renewable Resource&mdash;for Figures
-      42&ndash;45
+      <span class="bold"
+        >A Renewable Stock Constrained by a Renewable Resource&mdash;for Figures
+        42&ndash;45
+      </span>
     </blockquote>
     <p>
-      Stock: resource(t) = resource(t &ndash; dt) + (regeneration &ndash; harvest)
-      &times; dt
+      Stock: <span class="italic">resource(t) </span>=
+      <span class="italic">resource(t &ndash; dt) </span>+ (<span class="italic"
+        >regeneration &ndash; <span class="italic">harvest</span>) &times;
+        <span class="italic">dt </span></span
+      >
     </p>
-    <p>Initial stock value: resource = 1000</p>
-    <p>Inflow: regeneration = resource &times; regeneration rate</p>
-    <p>Outflow: harvest = capital &times; yield per unit capital</p>
-    <p>t = years</p>
-    <p>dt = 1 year</p>
+    <p>Initial stock value: <span class="italic">resource </span>= 1000</p>
+    <p>
+      Inflow: <span class="italic">regeneration </span>=
+      <span class="italic">resource </span>&times;
+      <span class="italic">regeneration rate </span>
+    </p>
+    <p>
+      Outflow: <span class="italic">harvest </span>=
+      <span class="italic">capital </span>&times;
+      <span class="italic">yield per unit capital </span>
+    </p>
+    <p><span class="italic">t </span>= years</p>
+    <p><span class="italic">dt </span>= 1 year</p>
     <p>Run time = 100 years</p>
     <p>
-      Stock: capital(t) = capital(t &ndash; dt) + (investment &ndash;
-      depreciation) &times; dt
+      Stock: <span class="italic">capital(t) </span>=
+      <span class="italic">capital(t &ndash; dt) </span>+ (<span class="italic"
+        >investment &ndash; <span class="italic">depreciation</span>) &times;
+        <span class="italic">dt </span></span
+      >
     </p>
-    <p>Initial stock value: capital = 5</p>
-    <p>Inflow: investment = minimum of profit or growth goal</p>
-    <p>Outflow: depreciation = capital / capital lifetime</p>
-    <p>Converters: capital lifetime = 20</p>
-    <p>growth goal = capital &times; 10%</p>
-    <p>profit = (price &times; harvest) &ndash; capital</p>
+    <p>Initial stock value: <span class="italic">capital </span>= 5</p>
     <p>
-      price starts at 1.2 when yield per unit capital is high and rises to 10 as
+      Inflow: <span class="italic">investment </span>= minimum of
+      <span class="italic">profit </span>or
+      <span class="italic">growth goal </span>
+    </p>
+    <p>
+      Outflow: <span class="italic">depreciation </span>=
+      <span class="italic">capital </span>/
+      <span class="italic">capital lifetime</span>
+    </p>
+    <p>Converters: <span class="italic">capital lifetime </span>= 20</p>
+    <p>
+      <span class="italic">growth goal </span>=
+      <span class="italic">capital </span>&times; 10%
+    </p>
+    <p>
+      <span class="italic">profit </span>= (<span class="italic">price </span
+      >&times; <span class="italic">harvest</span>) &ndash;
+      <span class="italic">capital </span>
+    </p>
+    <p>
+      <span class="italic">price </span>starts at 1.2 when yield per unit capital
+      is high and rises to 10 as
     </p>
     <p>
       yield per unit capital falls. This is the same nonlinear relationship for
@@ -765,7 +929,8 @@
     <p>price and yield as in the previous model.</p>
     <p><img src="images/00019.jpg" alt="" /></p>
     <blockquote>
-      regeneration rate is 0 when the resource is either fully stocked or
+      <span class="italic">regeneration rate </span>is 0 when the resource is
+      either fully stocked or
     </blockquote>
     <blockquote>
       completely depleted. In the middle of the resource range, regeneration rate
@@ -773,10 +938,11 @@
     </blockquote>
     <p><img src="images/00020.jpg" alt="" /></p>
     <p>
-      yield per unit capital starts at 1 when the resource is fully stocked, but
-      falls (non-linearly) as the resource stock declines. Yield per unit capital
-      increases overall from least efficient in Figure 43, to slightly more
-      efficient in Figure 44, to most efficient in Figure 45.
+      <span class="italic">yield per unit capital </span>starts at 1 when the
+      resource is fully stocked, but falls (non-linearly) as the resource stock
+      declines. Yield per unit capital increases overall from least efficient in
+      Figure 43, to slightly more efficient in Figure 44, to most efficient in
+      Figure 45.
     </p>
     <p><img src="images/00022.jpg" alt="" /></p>
   </details>
