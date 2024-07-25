@@ -3,6 +3,12 @@
 # chmod +x ./scripts/q-g-api.sh
 # ./scripts/q-g-api.sh
 
+# check if jq is installed
+if ! [ -x "$(command -v jq)" ]; then
+  echo 'Error: jq is not installed. Please install jq (https://jqlang.github.io/jq/).' >&2
+  exit 1
+fi
+
 # ask user for search query
 echo "Enter search query (spaces will be replaced with +, no special characters):"
 read query
