@@ -13,3 +13,44 @@
 <dd property="genre">Computers</dd>
 <dd property="genre">Software</dd>
 </dl>
+<details>
+    <summary>Summary of design principles</summary>
+    <ol>
+    <li>Complexity is incremental; you have to sweat the small stuff (see p. 11)</li>
+    <li>Working code isn’t enough (see p. 14).</li>
+    <li>Make continual small investments to improve the system design (see p. 15).</li>
+    <li>Modules should be deep (see p. 23).</li>
+    <li>Interfaces should be designed to make the most common usage as simple as possible (see p.27).</li>
+    <li>It’s more important for a module to have a simple interface than a simple implementation (see pp. 61, 74).</li>
+    <li>General-purpose modules are deeper (see p. 39).</li>
+    <li>Separate general-purpose and special purpose code (see pp. 45, 68).</li>
+    <li>Different layers should have different abstractions (see p. 51).</li>
+    <li>Pull complexity downward (see p. 61).</li>
+    <li>Define errors out of existence (see p. 81).</li>
+    <li>Design it twice (see p. 91).</li>
+    <li>Comments should describe things that are not obvious from the code (see p. 101).</li>
+    <li>Software should be designed for ease of reading, not ease of writing (see p. 151).</li>
+    <li>The increments of software development should be abstractions, not features (see p. 156).</li>
+    <li>Separate what matters from what doesn’t matter and emphasize the things that matter (see p. 171).</li>
+    </ol>
+</details>
+
+<details>
+    <summary>Summary of red flags</summary>
+    <ul>
+        <li><b>Shallow module</b>: the interface for a class or method isn’t much simpler than its implementation (see pp. 25, 110).</li>
+        <li><b>Information leakage</b>:</li> a design decision is reflected in multiple modules (see p. 31).</li>
+        <li><b>Temporal decomposition</b>: the code structure is based on the order operations are executed, not on information hiding (see p. 32).</li>
+        <li><b>Overexposure</b>: An API forces callers to be aware of rarely used features to use commonly used features (see p. 36).</li>
+        <li><b>Pass-through method</b>: a method does almost nothing except pass its arguments to another method with a similar signature (see p. 36).</li>
+        <li><b>Repetition</b>: a nontrivial piece of code is repeated over and over (see p. 68).</li>
+        <li><b>Special-general mixture</b>: special-purpose code is not cleanly separated from general purpose code (see p. 71).</li>
+        <li><b>Conjoined methods</b>: two methods have so many dependencies that its hard to understand the implementation of the other (see p. 75).</li>
+        <li><b>Comment repeat code</b>: all of the information in a comment is immediately obvious from the code next to the comment (see p. 104).</li>
+        <li><b>Implementation documentation contaminates interface</b>: an interface comment describes implementation details not needed by users of the thing being documented (see p. 114).</li>
+        <li><b>Vague name</b>: the name of the variable or method is so imprecise that it doesn’t convey much useful information (see p. 123).</li>
+        <li><b>Hard to pick name</b>: it is difficult to come up with a precise and intuitive name for an entity (see p. 125).</li>
+        <li><b>Hard to describe</b>: to be complete, the documentation for a variable or method must be long (see p. 133).</li>
+        <li><b>Nonobvious code</b>: the behavior or meaning of a piece of code cannot be understood easily (see p. 150).</li>
+    </ul>
+</details>
