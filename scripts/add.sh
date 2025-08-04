@@ -29,13 +29,58 @@ mkdir -p tmp
 # save json response to tmp file with query name as filename
 curl -s "https://www.googleapis.com/books/v1/volumes?q=$query" > tmp/q-g-api.json
 
-# get first result from json and ask user if the info is correct
-publishedDate=$(jq -r '.items[0].volumeInfo.publishedDate' tmp/q-g-api.json)
-IFS=$'\n' read -r -d '' -a authors < <(jq -r '.items[0].volumeInfo.authors[]' tmp/q-g-api.json)
-title=$(jq -r '.items[0].volumeInfo.title' tmp/q-g-api.json)
-subtitle=$(jq '.items[0].volumeInfo.subtitle' tmp/q-g-api.json)
-pageCount=$(jq '.items[0].volumeInfo.pageCount' tmp/q-g-api.json)
-IFS=$'\n' read -r -d '' -a categories < <(jq -r '.items[0].volumeInfo.categories[]' tmp/q-g-api.json)
+# check if API returned any results
+totalItems=$(jq -r '.totalItems' tmp/q-g-api.json)
+if [[ "$totalItems" == "0" ]] || [[ "$totalItems" == "null" ]]; then
+    echo "No books found for query: $query"
+    echo "Try different keywords or check spelling."
+    exit 1
+fi
+
+# show multiple results (up to 5)
+echo "Found $totalItems results. Select a book:"
+echo "---"
+
+maxResults=5
+if [[ $totalItems -lt $maxResults ]]; then
+    maxResults=$totalItems
+fi
+
+for ((i=0; i<$maxResults; i++)); do
+    resultTitle=$(jq -r ".items[$i].volumeInfo.title // \"Unknown Title\"" tmp/q-g-api.json)
+    resultAuthors=$(jq -r ".items[$i].volumeInfo.authors[]?" tmp/q-g-api.json | tr '\n' ', ' | sed 's/,$//')
+    resultYear=$(jq -r ".items[$i].volumeInfo.publishedDate // \"Unknown\"" tmp/q-g-api.json | cut -c 1-4)
+    
+    if [[ -z "$resultAuthors" ]]; then
+        resultAuthors="Unknown Author"
+    fi
+    
+    echo "$((i+1)). $resultTitle by $resultAuthors ($resultYear)"
+done
+
+echo "---"
+echo "Enter number (1-$maxResults) or 'q' to quit:"
+read choice
+
+# validate choice
+if [[ "$choice" == "q" ]]; then
+    echo "Search cancelled."
+    exit 0
+fi
+
+if ! [[ "$choice" =~ ^[1-9][0-9]*$ ]] || [[ $choice -lt 1 ]] || [[ $choice -gt $maxResults ]]; then
+    echo "Invalid selection. Please run the script again."
+    exit 1
+fi
+
+# get selected book data (convert to 0-based index)
+selectedIndex=$((choice-1))
+publishedDate=$(jq -r ".items[$selectedIndex].volumeInfo.publishedDate" tmp/q-g-api.json)
+IFS=$'\n' read -r -d '' -a authors < <(jq -r ".items[$selectedIndex].volumeInfo.authors[]?" tmp/q-g-api.json)
+title=$(jq -r ".items[$selectedIndex].volumeInfo.title" tmp/q-g-api.json)
+subtitle=$(jq ".items[$selectedIndex].volumeInfo.subtitle" tmp/q-g-api.json)
+pageCount=$(jq ".items[$selectedIndex].volumeInfo.pageCount" tmp/q-g-api.json)
+IFS=$'\n' read -r -d '' -a categories < <(jq -r ".items[$selectedIndex].volumeInfo.categories[]?" tmp/q-g-api.json)
 
 echo "---"
 
