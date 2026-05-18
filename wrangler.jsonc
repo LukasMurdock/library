@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "library",
+  "pages_build_output_dir": "./output",
+  "compatibility_date": "2026-05-18"
+}

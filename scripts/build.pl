@@ -5,8 +5,6 @@
 use strict;
 use warnings;
 use File::Find;
-use File::Slurp;
-use HTML::Entities;
 
 # Initialize variables to store book details
 my %books;
@@ -198,6 +196,52 @@ sub html_doc {
 HTML
 
     return $html;
+}
+
+sub read_file {
+    my $filename = shift;
+
+    open my $fh, '<', $filename or die "Could not read $filename: $!";
+    local $/;
+    my $content = <$fh>;
+    close $fh or die "Could not close $filename: $!";
+
+    return $content;
+}
+
+sub write_file {
+    my ($filename, $content) = @_;
+
+    open my $fh, '>', $filename or die "Could not write $filename: $!";
+    print {$fh} $content;
+    close $fh or die "Could not close $filename: $!";
+}
+
+sub encode_entities {
+    my $text = shift // '';
+
+    $text =~ s/&/&amp;/g;
+    $text =~ s/</&lt;/g;
+    $text =~ s/>/&gt;/g;
+    $text =~ s/"/&quot;/g;
+    $text =~ s/'/&#39;/g;
+
+    return $text;
+}
+
+sub decode_entities {
+    my $text = shift // '';
+
+    $text =~ s/&#x([0-9a-fA-F]+);/chr(hex($1))/eg;
+    $text =~ s/&#([0-9]+);/chr($1)/eg;
+    $text =~ s/&quot;/"/g;
+    $text =~ s/&#39;/'/g;
+    $text =~ s/&apos;/'/g;
+    $text =~ s/&gt;/>/g;
+    $text =~ s/&lt;/</g;
+    $text =~ s/&amp;/&/g;
+
+    return $text;
 }
 
 # Function to read and extract book data

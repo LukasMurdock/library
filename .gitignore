@@ -1,5 +1,6 @@
 # Ignore output directory
 output
 tmp
+.wrangler/
 
 .DS_Store

@@ -1,4 +1,6 @@
-# !/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
 
 # check if perl is installed
 if ! [ -x "$(command -v perl)" ]; then
@@ -16,4 +18,4 @@ fi
 perl scripts/build.pl
 
 # Deploy site
-wrangler pages deploy output --project-name library
+wrangler pages deploy
