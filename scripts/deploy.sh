@@ -8,9 +8,9 @@ if ! [ -x "$(command -v perl)" ]; then
   exit 1
 fi
 
-# check if wrangler is installed
-if ! [ -x "$(command -v wrangler)" ]; then
-  echo 'Error: wrangler is not installed. Please install wrangler (https://developers.cloudflare.com/workers/cli-wrangler/install-update).' >&2
+# check if local wrangler is installed
+if ! [ -x "./node_modules/.bin/wrangler" ]; then
+  echo 'Error: local wrangler is not installed. Run: pnpm install' >&2
   exit 1
 fi
 
@@ -18,4 +18,4 @@ fi
 perl scripts/build.pl
 
 # Deploy site
-wrangler pages deploy
+pnpm exec wrangler pages deploy

@@ -1,0 +1,17 @@
+{
+	"packageManager": "pnpm@11.1.0",
+	"scripts": {
+		"build": "perl scripts/build.pl",
+		"deploy": "pnpm run build && wrangler pages deploy"
+	},
+	"devDependencies": {
+		"wrangler": "4.94.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"sharp",
+			"workerd"
+		]
+	}
+}

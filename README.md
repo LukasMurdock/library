@@ -61,6 +61,20 @@ perl scripts/build.pl
 
 ### Deploy library
 
+Install project dependencies once:
+
+```
+pnpm install
+```
+
+Deploy using the locally installed Wrangler:
+
+```
+pnpm run deploy
+```
+
+Alternatively:
+
 ```
 ./scripts/deploy.sh
 ```
